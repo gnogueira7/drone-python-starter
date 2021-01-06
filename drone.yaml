@@ -13,7 +13,7 @@ steps:
       from_secret: u_docker
     password: 
       from_secret: p_docker
-    repo: luisredda/drone-python-starter
+    repo: gnogueira7/drone-python-starter
     auto_tag: true
     dryrun: true
 - name: my custom plugin
