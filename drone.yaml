@@ -15,7 +15,7 @@ steps:
       from_secret: p_docker
     repo: guinogueira7/drone-python-starter
     auto_tag: true
-    dryrun: true
+    dryrun: false
 - name: my custom plugin
   image: luisredda/drone-simple-plugin
   settings:
