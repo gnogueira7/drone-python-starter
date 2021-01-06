@@ -20,7 +20,7 @@ steps:
   image: luisredda/drone-simple-plugin
   settings:
     action: deploy
-    project: myproject
+    project: myprojectOK
     runtime: go111
     functions:
       - Function1:
